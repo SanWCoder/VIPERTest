@@ -5,11 +5,10 @@
 //  Created by SanW on 2021/7/13.
 //
 
-import XCTest
 @testable import VIPERTest
+import XCTest
 
 class VIPERTestTests: XCTestCase {
-
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -25,9 +24,8 @@ class VIPERTestTests: XCTestCase {
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        self.measure {
+        measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

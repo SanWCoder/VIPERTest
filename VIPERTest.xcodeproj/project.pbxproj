@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1CEA5A26A0268400599023 /* VRHomePageWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA4726A0268400599023 /* VRHomePageWireframe.swift */; };
+		2D1CEA5B26A0268400599023 /* VRHomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA4926A0268400599023 /* VRHomeModel.swift */; };
+		2D1CEA5C26A0268400599023 /* VRHomePageViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA4B26A0268400599023 /* VRHomePageViewPresenter.swift */; };
+		2D1CEA5D26A0268400599023 /* VRHomePageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA4D26A0268400599023 /* VRHomePageInteractor.swift */; };
+		2D1CEA5E26A0268400599023 /* VRHomePageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA4F26A0268400599023 /* VRHomePageBuilder.swift */; };
+		2D1CEA5F26A0268400599023 /* VRHomePageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA5126A0268400599023 /* VRHomePageViewCell.swift */; };
+		2D1CEA6026A0268400599023 /* VRHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA5226A0268400599023 /* VRHomePageViewController.swift */; };
+		2D1CEA6226A027FF00599023 /* VRMineWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6126A027FF00599023 /* VRMineWireframe.swift */; };
+		2D1CEA6426A0281D00599023 /* VRMineEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6326A0281D00599023 /* VRMineEntity.swift */; };
+		2D1CEA6626A0286D00599023 /* VRMinePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6526A0286D00599023 /* VRMinePresenter.swift */; };
+		2D1CEA6826A0288300599023 /* VRMineInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6726A0288300599023 /* VRMineInteractor.swift */; };
+		2D1CEA6A26A0289700599023 /* VRMineBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6926A0289700599023 /* VRMineBuilder.swift */; };
+		2D1CEA6C26A028A900599023 /* VRMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6B26A028A900599023 /* VRMineViewController.swift */; };
+		2D1CEA6E26A04EBD00599023 /* VRRouter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6D26A04EBD00599023 /* VRRouter+Ext.swift */; };
+		2D1CEA7026A05E1E00599023 /* VRHomeInteractorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6F26A05E1E00599023 /* VRHomeInteractorCase.swift */; };
 		2DCE2830269D8AB900D3F395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE282F269D8AB900D3F395 /* AppDelegate.swift */; };
-		2DCE2832269D8AB900D3F395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2831269D8AB900D3F395 /* SceneDelegate.swift */; };
 		2DCE2834269D8AB900D3F395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2833269D8AB900D3F395 /* ViewController.swift */; };
 		2DCE2837269D8AB900D3F395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE2835269D8AB900D3F395 /* Main.storyboard */; };
 		2DCE2839269D8ABD00D3F395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE2838269D8ABD00D3F395 /* Assets.xcassets */; };
 		2DCE283C269D8ABD00D3F395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE283A269D8ABD00D3F395 /* LaunchScreen.storyboard */; };
 		2DCE2847269D8ABD00D3F395 /* VIPERTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2846269D8ABD00D3F395 /* VIPERTestTests.swift */; };
 		2DCE2852269D8ABD00D3F395 /* VIPERTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2851269D8ABD00D3F395 /* VIPERTestUITests.swift */; };
+		2DCE2877269DB91100D3F395 /* VRRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2876269DB91100D3F395 /* VRRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +50,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D1CEA4726A0268400599023 /* VRHomePageWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageWireframe.swift; sourceTree = "<group>"; };
+		2D1CEA4926A0268400599023 /* VRHomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomeModel.swift; sourceTree = "<group>"; };
+		2D1CEA4B26A0268400599023 /* VRHomePageViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageViewPresenter.swift; sourceTree = "<group>"; };
+		2D1CEA4D26A0268400599023 /* VRHomePageInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageInteractor.swift; sourceTree = "<group>"; };
+		2D1CEA4F26A0268400599023 /* VRHomePageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageBuilder.swift; sourceTree = "<group>"; };
+		2D1CEA5126A0268400599023 /* VRHomePageViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageViewCell.swift; sourceTree = "<group>"; };
+		2D1CEA5226A0268400599023 /* VRHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VRHomePageViewController.swift; sourceTree = "<group>"; };
+		2D1CEA6126A027FF00599023 /* VRMineWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineWireframe.swift; sourceTree = "<group>"; };
+		2D1CEA6326A0281D00599023 /* VRMineEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineEntity.swift; sourceTree = "<group>"; };
+		2D1CEA6526A0286D00599023 /* VRMinePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMinePresenter.swift; sourceTree = "<group>"; };
+		2D1CEA6726A0288300599023 /* VRMineInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineInteractor.swift; sourceTree = "<group>"; };
+		2D1CEA6926A0289700599023 /* VRMineBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineBuilder.swift; sourceTree = "<group>"; };
+		2D1CEA6B26A028A900599023 /* VRMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineViewController.swift; sourceTree = "<group>"; };
+		2D1CEA6D26A04EBD00599023 /* VRRouter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VRRouter+Ext.swift"; sourceTree = "<group>"; };
+		2D1CEA6F26A05E1E00599023 /* VRHomeInteractorCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRHomeInteractorCase.swift; sourceTree = "<group>"; };
 		2DCE282C269D8AB900D3F395 /* VIPERTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE282F269D8AB900D3F395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DCE2831269D8AB900D3F395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2DCE2833269D8AB900D3F395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DCE2836269D8AB900D3F395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DCE2838269D8ABD00D3F395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +78,7 @@
 		2DCE284D269D8ABD00D3F395 /* VIPERTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPERTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE2851269D8ABD00D3F395 /* VIPERTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERTestUITests.swift; sourceTree = "<group>"; };
 		2DCE2853269D8ABD00D3F395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DCE2876269DB91100D3F395 /* VRRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +106,139 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1CEA4426A0268400599023 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4526A0268400599023 /* HomePage */,
+				2D1CEA5326A0268400599023 /* Mine */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		2D1CEA4526A0268400599023 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4626A0268400599023 /* Wireframes */,
+				2D1CEA4826A0268400599023 /* Entitys */,
+				2D1CEA4A26A0268400599023 /* Presenters */,
+				2D1CEA4C26A0268400599023 /* Interactors */,
+				2D1CEA4E26A0268400599023 /* Builder */,
+				2D1CEA5026A0268400599023 /* Views */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		2D1CEA4626A0268400599023 /* Wireframes */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4726A0268400599023 /* VRHomePageWireframe.swift */,
+				2D1CEA6D26A04EBD00599023 /* VRRouter+Ext.swift */,
+			);
+			path = Wireframes;
+			sourceTree = "<group>";
+		};
+		2D1CEA4826A0268400599023 /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4926A0268400599023 /* VRHomeModel.swift */,
+			);
+			path = Entitys;
+			sourceTree = "<group>";
+		};
+		2D1CEA4A26A0268400599023 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4B26A0268400599023 /* VRHomePageViewPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		2D1CEA4C26A0268400599023 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4D26A0268400599023 /* VRHomePageInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		2D1CEA4E26A0268400599023 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4F26A0268400599023 /* VRHomePageBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		2D1CEA5026A0268400599023 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA5126A0268400599023 /* VRHomePageViewCell.swift */,
+				2D1CEA5226A0268400599023 /* VRHomePageViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2D1CEA5326A0268400599023 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA5426A0268400599023 /* Wireframes */,
+				2D1CEA5526A0268400599023 /* Entitys */,
+				2D1CEA5626A0268400599023 /* Presenters */,
+				2D1CEA5726A0268400599023 /* Interactors */,
+				2D1CEA5826A0268400599023 /* Builder */,
+				2D1CEA5926A0268400599023 /* Views */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		2D1CEA5426A0268400599023 /* Wireframes */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6126A027FF00599023 /* VRMineWireframe.swift */,
+			);
+			path = Wireframes;
+			sourceTree = "<group>";
+		};
+		2D1CEA5526A0268400599023 /* Entitys */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6326A0281D00599023 /* VRMineEntity.swift */,
+			);
+			path = Entitys;
+			sourceTree = "<group>";
+		};
+		2D1CEA5626A0268400599023 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6526A0286D00599023 /* VRMinePresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		2D1CEA5726A0268400599023 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6726A0288300599023 /* VRMineInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		2D1CEA5826A0268400599023 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6926A0289700599023 /* VRMineBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		2D1CEA5926A0268400599023 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA6B26A028A900599023 /* VRMineViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2DCE2823269D8AB900D3F395 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +262,8 @@
 		2DCE282E269D8AB900D3F395 /* VIPERTest */ = {
 			isa = PBXGroup;
 			children = (
+				2DCE285F269D8CF000D3F395 /* Classes */,
 				2DCE282F269D8AB900D3F395 /* AppDelegate.swift */,
-				2DCE2831269D8AB900D3F395 /* SceneDelegate.swift */,
 				2DCE2833269D8AB900D3F395 /* ViewController.swift */,
 				2DCE2835269D8AB900D3F395 /* Main.storyboard */,
 				2DCE2838269D8ABD00D3F395 /* Assets.xcassets */,
@@ -115,6 +278,7 @@
 			children = (
 				2DCE2846269D8ABD00D3F395 /* VIPERTestTests.swift */,
 				2DCE2848269D8ABD00D3F395 /* Info.plist */,
+				2D1CEA6F26A05E1E00599023 /* VRHomeInteractorCase.swift */,
 			);
 			path = VIPERTestTests;
 			sourceTree = "<group>";
@@ -126,6 +290,23 @@
 				2DCE2853269D8ABD00D3F395 /* Info.plist */,
 			);
 			path = VIPERTestUITests;
+			sourceTree = "<group>";
+		};
+		2DCE285F269D8CF000D3F395 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA4426A0268400599023 /* Module */,
+				2DCE2860269D8CF000D3F395 /* Routers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2DCE2860269D8CF000D3F395 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				2DCE2876269DB91100D3F395 /* VRRouter.swift */,
+			);
+			path = Routers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,8 +371,10 @@
 		2DCE2824269D8AB900D3F395 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = VR;
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
+				ORGANIZATIONNAME = BytesFlow;
 				TargetAttributes = {
 					2DCE282B269D8AB900D3F395 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -258,9 +441,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1CEA6826A0288300599023 /* VRMineInteractor.swift in Sources */,
+				2D1CEA6026A0268400599023 /* VRHomePageViewController.swift in Sources */,
+				2D1CEA5F26A0268400599023 /* VRHomePageViewCell.swift in Sources */,
+				2D1CEA5D26A0268400599023 /* VRHomePageInteractor.swift in Sources */,
+				2D1CEA5A26A0268400599023 /* VRHomePageWireframe.swift in Sources */,
+				2D1CEA6C26A028A900599023 /* VRMineViewController.swift in Sources */,
+				2D1CEA5C26A0268400599023 /* VRHomePageViewPresenter.swift in Sources */,
 				2DCE2834269D8AB900D3F395 /* ViewController.swift in Sources */,
+				2D1CEA6226A027FF00599023 /* VRMineWireframe.swift in Sources */,
+				2D1CEA6426A0281D00599023 /* VRMineEntity.swift in Sources */,
+				2D1CEA6626A0286D00599023 /* VRMinePresenter.swift in Sources */,
+				2DCE2877269DB91100D3F395 /* VRRouter.swift in Sources */,
+				2D1CEA6E26A04EBD00599023 /* VRRouter+Ext.swift in Sources */,
+				2D1CEA5B26A0268400599023 /* VRHomeModel.swift in Sources */,
 				2DCE2830269D8AB900D3F395 /* AppDelegate.swift in Sources */,
-				2DCE2832269D8AB900D3F395 /* SceneDelegate.swift in Sources */,
+				2D1CEA5E26A0268400599023 /* VRHomePageBuilder.swift in Sources */,
+				2D1CEA6A26A0289700599023 /* VRMineBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCE2847269D8ABD00D3F395 /* VIPERTestTests.swift in Sources */,
+				2D1CEA7026A05E1E00599023 /* VRHomeInteractorCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
