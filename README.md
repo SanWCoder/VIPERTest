@@ -21,6 +21,6 @@ R：Route - 路由，提供界面跳转及模块间调用
 
 ## 二.VIPER架构图
 #### 1.原始图
-![VIPER-Origin](https://github.com/)
+![VIPER-Origin](https://github.com/SanWCoder/VIPERTest/blob/master/VIPERTest/Classes/Resources/VIPER-Origin.png)
 #### 2.改进图
-![VIPER-New](https://github.com/)
+![VIPER-New](https://github.com/SanWCoder/VIPERTest/blob/master/VIPERTest/Classes/Resources/VIPER-New.jpeg)
