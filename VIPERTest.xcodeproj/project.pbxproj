@@ -22,6 +22,8 @@
 		2D1CEA6C26A028A900599023 /* VRMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6B26A028A900599023 /* VRMineViewController.swift */; };
 		2D1CEA6E26A04EBD00599023 /* VRRouter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6D26A04EBD00599023 /* VRRouter+Ext.swift */; };
 		2D1CEA7026A05E1E00599023 /* VRHomeInteractorCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CEA6F26A05E1E00599023 /* VRHomeInteractorCase.swift */; };
+		2D1CEA7426A6709C00599023 /* VIPER-New.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CEA7226A6709C00599023 /* VIPER-New.jpeg */; };
+		2D1CEA7526A6709C00599023 /* VIPER-Origin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CEA7326A6709C00599023 /* VIPER-Origin.png */; };
 		2DCE2830269D8AB900D3F395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE282F269D8AB900D3F395 /* AppDelegate.swift */; };
 		2DCE2834269D8AB900D3F395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCE2833269D8AB900D3F395 /* ViewController.swift */; };
 		2DCE2837269D8AB900D3F395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DCE2835269D8AB900D3F395 /* Main.storyboard */; };
@@ -65,6 +67,8 @@
 		2D1CEA6B26A028A900599023 /* VRMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRMineViewController.swift; sourceTree = "<group>"; };
 		2D1CEA6D26A04EBD00599023 /* VRRouter+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VRRouter+Ext.swift"; sourceTree = "<group>"; };
 		2D1CEA6F26A05E1E00599023 /* VRHomeInteractorCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRHomeInteractorCase.swift; sourceTree = "<group>"; };
+		2D1CEA7226A6709C00599023 /* VIPER-New.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VIPER-New.jpeg"; sourceTree = "<group>"; };
+		2D1CEA7326A6709C00599023 /* VIPER-Origin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VIPER-Origin.png"; sourceTree = "<group>"; };
 		2DCE282C269D8AB900D3F395 /* VIPERTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPERTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCE282F269D8AB900D3F395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DCE2833269D8AB900D3F395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -239,6 +243,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		2D1CEA7126A6709C00599023 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CEA7226A6709C00599023 /* VIPER-New.jpeg */,
+				2D1CEA7326A6709C00599023 /* VIPER-Origin.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		2DCE2823269D8AB900D3F395 = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +308,7 @@
 		2DCE285F269D8CF000D3F395 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				2D1CEA7126A6709C00599023 /* Resources */,
 				2D1CEA4426A0268400599023 /* Module */,
 				2DCE2860269D8CF000D3F395 /* Routers */,
 			);
@@ -417,6 +431,8 @@
 				2DCE283C269D8ABD00D3F395 /* LaunchScreen.storyboard in Resources */,
 				2DCE2839269D8ABD00D3F395 /* Assets.xcassets in Resources */,
 				2DCE2837269D8AB900D3F395 /* Main.storyboard in Resources */,
+				2D1CEA7526A6709C00599023 /* VIPER-Origin.png in Resources */,
+				2D1CEA7426A6709C00599023 /* VIPER-New.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
